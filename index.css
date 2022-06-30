@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 1.5em;
+    left: 42em;
+    text-align: center;
+    justify-content: center;
+}
+header{
+    font-size: 25px;
+}
+button{
+    position: fixed;
+    justify-content: center;
+    bottom: 6.5em;
+    left: 42em;
+    width: 250px;
+    height: 60px;
+    border-radius: 4px;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.main{
+    margin-left: 38em;
+}
