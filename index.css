@@ -2,7 +2,7 @@ footer{
     display: flex;
     position: fixed;
     bottom: 1.5em;
-    left: 42em;
+    left: 48em;
     text-align: center;
     justify-content: center;
 }
@@ -13,7 +13,7 @@ button{
     position: fixed;
     justify-content: center;
     bottom: 6.5em;
-    left: 42em;
+    left: 48em;
     width: 250px;
     height: 60px;
     border-radius: 4px;
