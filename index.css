@@ -1,56 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;0,700;1,100;1,500&family=Sora:wght@100;200;300;400;500;600;700&display=swap');
-footer{
-    position: fixed;
-    bottom: 1.5em;
-    left: 43em;
-    text-align: center;
-
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:ital,wght@0,100;0,300;0,500;0,600;0,700;1,100;1,500&family=Sora:wght@100;200;300;400;500;600;700&display=swap");
+footer {
+  position: fixed;
+  bottom: 1.5em;
+  left: 43em;
+  text-align: center;
 }
-header{
-    font-size: 25px;
+header {
+  font-size: 25px;
 }
 a,
-button{
-    text-decoration: none;
+button {
+  color: black;
+  text-decoration: none;
 }
-button{
-    position: fixed;
+button {
+  position: fixed;
+  justify-content: center;
+  bottom: 6.5em;
+  left: 48em;
+  width: 250px;
+  height: 60px;
+  border-radius: 4px;
+  border: 0px solid;
+  cursor: pointer;
+}
+
+.main {
+  margin-left: 38em;
+  font-family: "Sora", sans-serif;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .main {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  span {
+    font-size: 14px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  footer {
+    left: 7em;
+  }
+  button {
+    left: 6em;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .main {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    bottom: 6.5em;
-    left: 48em;
-    width: 250px;
-    height: 60px;
-    border-radius: 4px;
-    border: 0px solid;
-    cursor: pointer;
+    margin-left: 11em;
+  }
+  button {
+    zoom: 0.7;
+    margin-left: -18em;
+  }
+  footer {
+    position: fixed;
+    bottom: 1em;
+    left: 25em;
+    font-size: 12px;
+    text-align: center;
+  }
 }
 
-.main{
-    margin-left: 38em;
-    font-family: 'Sora', sans-serif;
-}
-
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 479px){
-    .main{
-        margin-left: 1em;
-        display: flex;
-        flex-direction:column;
-        font-size: 14px;
-    }
-    span{
-        font-size: 14px;
-        text-align: center;
-    }
-    h1{
-        text-align: center;
-    }
-    footer{
-        left: 7em;
-    }
-     button{
-         left: 6.3em;
-     }
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9em;
+  }
+  h1 {
+    font-size: 47px;
+    font-weight: 760;
+  }
+  span {
+    text-align: center;
+    justify-content: center;
+    margin-left: -10em;
+  }
+  button,
+  footer {
+    left: 21em;
+  }
 }
