@@ -6,7 +6,8 @@ box-sizing:border-box;
 }
 
 body{
-background:orange;  
+background-image: url(./img/back.png);
+background-size: 39em;  
 font-family: 'Sora', sans-serif;
 }
 
@@ -31,7 +32,7 @@ overflow-y:scroll;
 
 .add-note-btn{
 all:unset;       
-background:orange;
+background:rgb(0, 68, 255);
 border-radius:100%;
 position:fixed;
 top:85%;

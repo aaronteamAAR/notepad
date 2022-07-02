@@ -5,8 +5,25 @@ footer {
   left: 43em;
   text-align: center;
 }
-header {
-  font-size: 25px;
+header{
+  font-size: 23px;
+  font-weight: 500;
+  font-family: 'Space Grotesk', sans-serif;
+}
+small{
+    font-size: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+footer{
+    margin-left: -0.6em;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.img{
+    position: sticky;
+    margin-left: 2em;
+    margin-top: 3em;
+    zoom: 0.6;
+    height: 470px;
 }
 a,
 button {
@@ -14,6 +31,7 @@ button {
   text-decoration: none;
 }
 button {
+    font-family: "Sora", sans-serif;
   position: fixed;
   justify-content: center;
   bottom: 6.5em;
@@ -25,7 +43,7 @@ button {
   cursor: pointer;
 }
 
-.main {
+.main{
   margin-left: 38em;
   font-family: "Sora", sans-serif;
 }
