@@ -69,6 +69,12 @@ button {
     left: 6em;
     
   }
+  .img{
+      margin-left: 1em;
+      width: 600px;
+  height: 500px;
+
+}
 }
   
 /*landscape*/
