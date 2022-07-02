@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap");
 footer {
   position: fixed;
   bottom: 1.5em;
   left: 44em;
   text-align: center;
 }
-header{
+header {
   font-size: 23px;
   font-weight: 500;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
-small{
-    font-size: 10px;
-    font-family: 'Space Grotesk', sans-serif;
+small {
+  font-size: 10px;
+  font-family: "Space Grotesk", sans-serif;
 }
-footer{
-    margin-left: -0.6em;
-    font-family: 'Space Grotesk', sans-serif;
+footer {
+  margin-left: -0.6em;
+  font-family: "Space Grotesk", sans-serif;
 }
-.img{
-
-    margin-left: 61em;
-    margin-top: 7em;
-    zoom: 0.6;
-    height: 570px;
+.img {
+  margin-left: 61em;
+  margin-top: 7em;
+  zoom: 0.6;
+  height: 570px;
 }
 a,
 button {
@@ -31,7 +30,7 @@ button {
   text-decoration: none;
 }
 button {
-    font-family: "Sora", sans-serif;
+  font-family: "Sora", sans-serif;
   position: fixed;
   justify-content: center;
   bottom: 6.5em;
@@ -43,13 +42,15 @@ button {
   cursor: pointer;
 }
 
-.main{
+.main {
   margin-left: 38em;
   font-family: "Sora", sans-serif;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .main {
+    margin: 0;
+    padding: 0;
     margin-left: 1em;
     display: flex;
     flex-direction: column;
@@ -63,23 +64,24 @@ button {
     text-align: center;
   }
   footer {
-    left: 7em;
+    left: 5em;
   }
   button {
-    left: 6em;
-    
+    left: 4em;
   }
-  .img{
-      margin-left: 1em;
-      width: 600px;
-  height: 500px;
+  .img {
+    margin-left: -2em;
+    margin-top: 1em;
+    width: 700px;
+    height: 500px;
+  }
+}
 
-}
-}
-  
 /*landscape*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .main {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,12 +99,12 @@ button {
     font-size: 12px;
     text-align: center;
   }
-
- 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .main {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     margin-left: 9em;
@@ -120,9 +122,8 @@ button {
   footer {
     left: 21em;
   }
-  .img{
-   
+  .img {
     width: 700px;
     zoom: 0.5;
-}
+  }
 }
