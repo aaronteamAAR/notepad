@@ -2,7 +2,7 @@
 footer {
   position: fixed;
   bottom: 1.5em;
-  left: 43em;
+  left: 44em;
   text-align: center;
 }
 header{
@@ -19,11 +19,11 @@ footer{
     font-family: 'Space Grotesk', sans-serif;
 }
 .img{
-    position: sticky;
-    margin-left: 2em;
-    margin-top: 3em;
+
+    margin-left: 61em;
+    margin-top: 7em;
     zoom: 0.6;
-    height: 470px;
+    height: 570px;
 }
 a,
 button {
@@ -35,7 +35,7 @@ button {
   position: fixed;
   justify-content: center;
   bottom: 6.5em;
-  left: 48em;
+  left: 52em;
   width: 250px;
   height: 60px;
   border-radius: 4px;
@@ -67,9 +67,11 @@ button {
   }
   button {
     left: 6em;
+    
   }
 }
-
+  
+/*landscape*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .main {
     display: flex;
@@ -81,6 +83,7 @@ button {
     zoom: 0.7;
     margin-left: -18em;
   }
+
   footer {
     position: fixed;
     bottom: 1em;
@@ -88,6 +91,7 @@ button {
     font-size: 12px;
     text-align: center;
   }
+ 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
@@ -109,4 +113,9 @@ button {
   footer {
     left: 21em;
   }
+  .img{
+      position: absolute;
+    width: 600px;
+    zoom: 0.5;
+}
 }
