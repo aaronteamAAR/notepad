@@ -97,6 +97,7 @@ button {
     font-size: 12px;
     text-align: center;
   }
+
  
 }
 
@@ -120,8 +121,8 @@ button {
     left: 21em;
   }
   .img{
-      position: absolute;
-    width: 600px;
+   
+    width: 700px;
     zoom: 0.5;
 }
 }
