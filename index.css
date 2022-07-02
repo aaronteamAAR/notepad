@@ -64,16 +64,17 @@ button {
     text-align: center;
   }
   footer {
-    left: 5em;
+    left: 6em;
   }
   button {
     left: 4em;
   }
   .img {
-    margin-left: -2em;
+    margin-left: 1em;
     margin-top: 1em;
     width: 700px;
     height: 500px;
+    zoom: .5;
   }
 }
 
