@@ -39,14 +39,16 @@ NoteAdd += `  <div class="note">
 <p class="date">${note.date}</p>
 <i onclick="showMenu(this)" class="fa-solid fa-ellipsis"></i>
 <div class="settings">
-    <div class="menu">
-            <span class="edit-btn" onclick="editNote(${index},'${note.title}','${filtDesc}')"><i class="fa-solid fa-pen"></i> Edit</span>
-            <span class="delete-btn" onclick="deleteNote(${index})"><i class="fa-solid fa-trash"></i> Delete</span>
-    </div>    
+  
+            <button class="edit-btn" onclick="editNote(${index},'${note.title}','${filtDesc}')">Edit</button>
+            <button class="delete-btn" onclick="deleteNote(${index})">Delete</button>
+   
 </div>
   </div>    
   `;
  });
+
+ 
  noteBox.innerHTML = NoteAdd || `
  <span><i class="fa-solid fa-note-sticky"></i></span> 
  <span class="no-notes-message">No Notes here yet</span>`;
