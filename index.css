@@ -15,7 +15,7 @@ small {
   font-family: "Space Grotesk", sans-serif;
 }
 footer {
-  margin-left: -0.6em;
+  margin-left: 5em;
   font-family: "Space Grotesk", sans-serif;
 }
 .img {
@@ -34,7 +34,7 @@ button {
   position: fixed;
   justify-content: center;
   bottom: 6.5em;
-  left: 52em;
+  left: 49em;
   width: 250px;
   height: 60px;
   border-radius: 4px;
